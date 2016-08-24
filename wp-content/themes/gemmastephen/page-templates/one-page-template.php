@@ -66,17 +66,21 @@
 	     <!-- Header -->
 	    <header>
 	        <div class="container">
-	            <div class="intro-text">
-	            	<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/avatar1.jpg" class="avatar" alt="Avatar"/>
-	                <h1 class="intro-heading">
-	                    Gemma L. Stephen
-	                </h1>
-	                <p>
-	                 	Front-end Development
-	                 </p>
-	                
-	                <a href="#about" class="page-scroll"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/arrow-down1.png" alt="Scroll down"></a>
-	            </div>
+	        	<div class="row">
+	        		<div class="col-sm-8 col-sm-offset-2">
+			            <div class="intro-text">
+			            	<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/avatar1.jpg" class="avatar" alt="Avatar"/>
+			                <h1 class="intro-heading">
+			                    Gemma L. Stephen
+			                </h1>
+			                <p>
+			                 	Front End Development
+			                 </p>
+			                
+			                <a href="#about" class="page-scroll"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/arrow-down1.png" alt="Scroll down"></a>
+			            </div>
+			        </div>
+		        </div>
 	        </div>
 	    </header>
 
@@ -84,14 +88,14 @@
 	    <section id="about">
 	        <div class="container">
 	            <div class="row">
-	                <div class="col-lg-12 text-center">
+	                <div class="col-sm-10 col-sm-offset-1 text-center">
 	                    <h2 class="section-heading">About</h2>
 	                    <h3 class="section-subheading text-muted">The lass behind the screen...</h3>
 	                </div>
 	            </div>
 
 	            <div class="row">
-	                <div class="col-sm-12">
+	                <div class="col-sm-10 col-sm-offset-1">
 	                	<p class="first-p">
 		                	My name is Gemma and I am a Front End Developer in Fife, Scotland. With 4 years hands on experience behind me, I enjoy building responsive interfaces with HTML, CSS and Javascript using the latest UI frameworks and techniques.
 		                </p>
@@ -99,7 +103,7 @@
 							Often working closely with designers, I like to ensure the projects I work on are optimised, semantic, accessible and cross-browser compatible whether it be used via desktop or on a mobile device.  With a good eye for detail, I strive in busy, fast-paced environments and love to keep up to date with the current technology trends.
 						</p>
 						<p>
-							I graduated from Napier University with a first class honours degree in Digital Media but with a focus on web development. From this, I have spent my career so far working with some fantastic people on some interesting projects learning, developing and adding to my knowledge base.
+							I graduated from Edinburgh Napier University with a first class honours degree in Digital Media but with a focus on web development. From this, I have spent my career so far working with some fantastic people on some interesting projects learning, developing and adding to my knowledge base.
 						</p>
 						<p>
 							Away from the computer desk, I have a passion for music and like going to as many gigs and festivals as I can. I enjoy keeping active whether it be going to the gym or swimming and with this comes a love for nutrition and cooking healthy food. But sometimes I love nothing more than watching weird comedies on Netflix or relaxing with a good book. 
@@ -114,8 +118,9 @@
 	    <section id="experience" class="bg-light-gray">
 	        <div class="container">
 	            <div class="row">
-	                <div class="col-lg-12 text-center">
+	                <div class="col-sm-10 col-sm-offset-1 text-center">
 	                    <h2 class="section-heading">Experience</h2>
+	                    <h3 class="section-subheading text-muted">My career so far...</h3>
 	                </div>
 	            </div>
 
@@ -144,9 +149,9 @@
     <section id="work" class="bg-light-gray">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
+                <div class="col-sm-10 col-sm-offset-1 text-center">
                     <h2 class="section-heading">Work</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">The things I have done...</h3>
                 </div>
             </div>
             <div class="row">
@@ -242,8 +247,9 @@
 	    <section id="education">
 	        <div class="container">
 	            <div class="row">
-	                <div class="col-lg-12 text-center">
+	                <div class="col-sm-10 col-sm-offset-1 text-center">
 	                    <h2 class="section-heading">Education</h2>
+	                    <h3 class="section-subheading text-muted">How I got to where I am...</h3>
 	                </div>
 	            </div>
 	            <div class="row">
@@ -308,7 +314,7 @@
 	    <section id="contact-info" class="bg-light-gray">
 	        <div class="container">
 	            <div class="row">
-	                <div class="col-sm-12">
+	                <div class="col-sm-10 col-sm-offset-1">
 	                    <div class="details text-center">
 	                        <p>Want to get in touch? Email <strong><a href="mailto:info@planysmobile.com" target="_top">info@doctorflint.co.uk</a></strong></p>
 	                    </div>
