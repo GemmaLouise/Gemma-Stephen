@@ -2,6 +2,7 @@
 /* CSS and JS Files */
 function gemmastephen_script() {
    	wp_enqueue_style( 'bootstrap.min', get_stylesheet_directory_uri() . '/css/bootstrap.min.css' );
+   	wp_enqueue_style( 'font-awesome', get_stylesheet_directory_uri() . '/fonts/font-awesome/css/font-awesome.min.css' );
 
 	wp_enqueue_script( 'bootstrap-js', get_stylesheet_directory_uri() . '/js/bootstrap.min.js', array(), '1.1', true );
 	wp_enqueue_script( 'jquery.easing', get_stylesheet_directory_uri() . '/js/jquery.easing.1.3.js', array(), '1.1', true );

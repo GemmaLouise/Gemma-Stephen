@@ -21,7 +21,7 @@
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 		<?php endif; ?>
 
-		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
 
 		<?php wp_head(); ?>
 	</head>
@@ -74,7 +74,7 @@
 			                    Gemma L. Stephen
 			                </h1>
 			                <p>
-			                 	Front End Development
+			                 	HTML &#155; CSS &#155; Javascript &#155; Accessible &#155; Responsive &#155; Adaptive
 			                 </p>
 			                
 			                <a href="#about" class="page-scroll"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/arrow-down1.png" alt="Scroll down"></a>
@@ -114,6 +114,7 @@
 	        </div>
 	    </section>
 
+
 	    <!-- Experience Section -->
 	    <section id="experience" class="bg-light-gray">
 	        <div class="container">
@@ -124,127 +125,149 @@
 	                </div>
 	            </div>
 
-	            <div class="row">
-	                <div class="col-sm-5 text-center">
-	                    Case study image
-	                </div>
+				<div class="col-sm-10 col-sm-offset-1">
+                    <div class="row">
 
-	                <div class="col-sm-7">
-	                    <h3>Julie's Story</h3>
-	                    <p>As a junior doctor, I know this acutely. Out of hours, two weeks after starting work in my first rotation as an FY1 in General Medicine, I was asked to switch a dying patient on nasogastric opiates to a syringe driver. Her nasogastric route was compromised. It was not a familiar procedure, and I asked for help.</p> 
+						<div class="job-details clearfix">
+			                <div class="col-sm-4">
+			                    <h2>July 12 – Present</h2> 
+			                    <h3>Planys Mobile, Dunfermline</h3>
+			                    <p>Front-end Developer</p>
+			                </div>
 
-	                    <p>I contacted the registrar, who was busy with acutely unwell patients. Once I found the correct guideline, I manually converted the patient’s nasogastric opiate intake to a subcutaneous syringe driver. This took me a considerable amount of time, and all the while the patient was not receiving her pain relief.  </p>
+			                <div class="col-sm-8">
+			                    <p class="description">
+			                    	<strong>My role:</strong>  Responsible for front-end development using HTML, CSS3/SASS, JavaScript, PHP with the chance to work on a number of bespoke projects from simple brochure sites to complex web applications. 
+			                    	This role saw me working closely to bridge the gap between the designer and backend developers in a fast paced start-up environment. 
+			                    </p>
+			                </div>
+			            </div>
+						<div class="job-details clearfix">
+							<div class="col-sm-4">
+			                    <h2>May 11 – July 12</h2> 
+			                    <h3>Zendit Ltd, Dunfermline</h3>
+			                    <p>Operations Support Engineer</p>
+			                </div>
+			                <div class="col-sm-8">
+								<p class="description">
+									<strong>My role:</strong> Initially employed as an intern for 1 month testing and creating websites and then progressed into full-time gaining more knowledge and skills in the field of web development. 
+									The role included UI design and CMS integration, managing and updating current client sites using technologies such as HTML, CSS, Javascript, PHP.
+									As part of this role, I also built relationships with clients and assisted operations between clients and developers. QA tested on web and mobile based applications, creating test documents and reporting and managing bugs
+								</p>
+			                </div>
+						</div>
 
-	                    <p>In the end, I did not have the confidence to prescribe the opiates, as I was unsure that I had made the correct conversion using pen and paper. I called the registrar to double-check the dosages.</p>
-
-	                    <p>It was a sobering lesson, and I was determined that no other junior doctor or nurse prescriber should be put in the same position. At that time, I decided to create a program to ensure that junior staff can double-check their opiate calculations.</p>
-	                </div>
-
-	            </div>
+		            </div>
+                </div>
 	        </div>
 	    </section>
 
 
 	    <!-- Work Section -->
-    <section id="work" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 text-center">
-                    <h2 class="section-heading">Work</h2>
-                    <h3 class="section-subheading text-muted">The things I have done...</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Round Icons</h4>
-                        <p class="text-muted">Graphic Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/startup-framework.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Startup Framework</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/treehouse.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Treehouse</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/golden.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Golden</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/escape.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Escape</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/dreams.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Dreams</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+	    <section id="work">
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-sm-10 col-sm-offset-1 text-center">
+	                    <h2 class="section-heading">Work</h2>
+	                    <h3 class="section-subheading text-muted">The things I have done...</h3>
+	                </div>
+	            </div>
+
+	            <div class="row">
+	                <div class="col-sm-10 col-sm-offset-1 text-center">
+			            <div class="row">
+			                <div class="col-md-4 col-sm-6 portfolio-item">
+			                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+			                        <div class="portfolio-hover">
+			                            <div class="portfolio-hover-content">
+			                                <i class="fa fa-angle-double-right fa-3x"></i>
+			                            </div>
+			                        </div>
+			                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/example.png" class="img-responsive" alt="">
+			                    </a>
+			                    <div class="portfolio-caption">
+			                        <h4>Round Icons</h4>
+			                        <p class="text-muted">Graphic Design</p>
+			                    </div>
+			                </div>
+			                <div class="col-md-4 col-sm-6 portfolio-item">
+			                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+			                        <div class="portfolio-hover">
+			                            <div class="portfolio-hover-content">
+			                                <i class="fa fa-angle-double-right fa-3x"></i>
+			                            </div>
+			                        </div>
+			                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/example.png" class="img-responsive" alt="">
+			                    </a>
+			                    <div class="portfolio-caption">
+			                        <h4>Startup Framework</h4>
+			                        <p class="text-muted">Website Design</p>
+			                    </div>
+			                </div>
+			                <div class="col-md-4 col-sm-6 portfolio-item">
+			                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+			                        <div class="portfolio-hover">
+			                            <div class="portfolio-hover-content">
+			                                <i class="fa fa-angle-double-right fa-3x"></i>
+			                            </div>
+			                        </div>
+			                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/example.png" class="img-responsive" alt="">
+			                    </a>
+			                    <div class="portfolio-caption">
+			                        <h4>Treehouse</h4>
+			                        <p class="text-muted">Website Design</p>
+			                    </div>
+			                </div>
+			                <div class="col-md-4 col-sm-6 portfolio-item">
+			                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+			                        <div class="portfolio-hover">
+			                            <div class="portfolio-hover-content">
+			                                <i class="fa fa-angle-double-right fa-3x"></i>
+			                            </div>
+			                        </div>
+			                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/example.png" class="img-responsive" alt="">
+			                    </a>
+			                    <div class="portfolio-caption">
+			                        <h4>Golden</h4>
+			                        <p class="text-muted">Website Design</p>
+			                    </div>
+			                </div>
+			                <div class="col-md-4 col-sm-6 portfolio-item">
+			                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+			                        <div class="portfolio-hover">
+			                            <div class="portfolio-hover-content">
+			                                <i class="fa fa-angle-double-right fa-3x"></i>
+			                            </div>
+			                        </div>
+			                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/example.png" class="img-responsive" alt="">
+			                    </a>
+			                    <div class="portfolio-caption">
+			                        <h4>Escape</h4>
+			                        <p class="text-muted">Website Design</p>
+			                    </div>
+			                </div>
+			                <div class="col-md-4 col-sm-6 portfolio-item">
+			                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+			                        <div class="portfolio-hover">
+			                            <div class="portfolio-hover-content">
+			                                <i class="fa fa-angle-double-right fa-3x"></i>
+			                            </div>
+			                        </div>
+			                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/example.png" class="img-responsive" alt="">
+			                    </a>
+			                    <div class="portfolio-caption">
+			                        <h4>Dreams</h4>
+			                        <p class="text-muted">Website Design</p>
+			                    </div>
+			                </div>
+			            </div>
+			        </div>
+			    </div>
+			</div>
+	    </section>
 
 
-	    <section id="education">
+	    <section id="education" class="bg-light-gray">
 	        <div class="container">
 	            <div class="row">
 	                <div class="col-sm-10 col-sm-offset-1 text-center">
@@ -252,6 +275,10 @@
 	                    <h3 class="section-subheading text-muted">How I got to where I am...</h3>
 	                </div>
 	            </div>
+
+	            2009 –2011  Edinburgh Napier University, EdinburghBSc Digital Media, First Class Honours 2006 –2009  Carnegie College, DunfermlineHND Interactive Multimedia Creation (Carnegie Rose Bowl Winner 2009)2005 –2006  Adam Smith College, KirkcaldyNQ Administration2001 –2005Queen Anne High School, DunfermlineStandard Grade:English, Maths, French, History, Biology, Art, Drama, Administration
+
+
 	            <div class="row">
 	                <div class="col-sm-4">
 	                    <div class="team-member">
@@ -311,7 +338,7 @@
 	        </div>
 	    </section>
 
-	    <section id="contact-info" class="bg-light-gray">
+	    <section id="contact-info">
 	        <div class="container">
 	            <div class="row">
 	                <div class="col-sm-10 col-sm-offset-1">
