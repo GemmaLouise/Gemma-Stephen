@@ -185,11 +185,11 @@
 			                                <i class="fa fa-angle-double-right fa-3x"></i>
 			                            </div>
 			                        </div>
-			                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/example.png" class="img-responsive" alt="">
+			                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/bh-thumb.jpg" class="img-responsive" alt="">
 			                    </a>
 			                    <div class="portfolio-caption">
-			                        <h4>Round Icons</h4>
-			                        <p class="text-muted">Graphic Design</p>
+			                        <h4>Business Hound</h4>
+			                        <p class="text-muted">Brochure site &amp; web based app</p>
 			                    </div>
 			                </div>
 			                <div class="col-md-4 col-sm-6 portfolio-item">
@@ -199,11 +199,11 @@
 			                                <i class="fa fa-angle-double-right fa-3x"></i>
 			                            </div>
 			                        </div>
-			                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/example.png" class="img-responsive" alt="">
+			                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cgf-thumb.jpg" class="img-responsive" alt="">
 			                    </a>
 			                    <div class="portfolio-caption">
-			                        <h4>Startup Framework</h4>
-			                        <p class="text-muted">Website Design</p>
+			                        <h4>Click Go Family</h4>
+			                        <p class="text-muted">Brochure site &amp; web based app</p>
 			                    </div>
 			                </div>
 			                <div class="col-md-4 col-sm-6 portfolio-item">
@@ -213,11 +213,11 @@
 			                                <i class="fa fa-angle-double-right fa-3x"></i>
 			                            </div>
 			                        </div>
-			                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/example.png" class="img-responsive" alt="">
+			                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/planys-thumb.jpg" class="img-responsive" alt="">
 			                    </a>
 			                    <div class="portfolio-caption">
-			                        <h4>Treehouse</h4>
-			                        <p class="text-muted">Website Design</p>
+			                        <h4>Planys Mobile</h4>
+			                        <p class="text-muted">Brochure site</p>
 			                    </div>
 			                </div>
 			                <div class="col-md-4 col-sm-6 portfolio-item">
@@ -227,11 +227,11 @@
 			                                <i class="fa fa-angle-double-right fa-3x"></i>
 			                            </div>
 			                        </div>
-			                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/example.png" class="img-responsive" alt="">
+			                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sds-thumb.jpg" class="img-responsive" alt="">
 			                    </a>
 			                    <div class="portfolio-caption">
-			                        <h4>Golden</h4>
-			                        <p class="text-muted">Website Design</p>
+			                        <h4>SDS</h4>
+			                        <p class="text-muted">Web based app</p>
 			                    </div>
 			                </div>
 			                <div class="col-md-4 col-sm-6 portfolio-item">
@@ -241,11 +241,11 @@
 			                                <i class="fa fa-angle-double-right fa-3x"></i>
 			                            </div>
 			                        </div>
-			                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/example.png" class="img-responsive" alt="">
+			                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/inch-thumb.jpg" class="img-responsive" alt="">
 			                    </a>
 			                    <div class="portfolio-caption">
-			                        <h4>Escape</h4>
-			                        <p class="text-muted">Website Design</p>
+			                        <h4>Inchdairnie</h4>
+			                        <p class="text-muted">Brochure site &amp; Wordpress</p>
 			                    </div>
 			                </div>
 			                <div class="col-md-4 col-sm-6 portfolio-item">
@@ -255,11 +255,53 @@
 			                                <i class="fa fa-angle-double-right fa-3x"></i>
 			                            </div>
 			                        </div>
-			                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/example.png" class="img-responsive" alt="">
+			                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/hiryzr-thumb.jpg" class="img-responsive" alt="">
 			                    </a>
 			                    <div class="portfolio-caption">
-			                        <h4>Dreams</h4>
-			                        <p class="text-muted">Website Design</p>
+			                        <h4>Hiryzr</h4>
+			                        <p class="text-muted">Brochure site &amp; web based app</p>
+			                    </div>
+			                </div>
+			                <div class="col-md-4 col-sm-6 portfolio-item">
+			                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+			                        <div class="portfolio-hover">
+			                            <div class="portfolio-hover-content">
+			                                <i class="fa fa-angle-double-right fa-3x"></i>
+			                            </div>
+			                        </div>
+			                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/qmu-thumb.jpg" class="img-responsive" alt="">
+			                    </a>
+			                    <div class="portfolio-caption">
+			                        <h4>Lydia Osteoporosis</h4>
+			                        <p class="text-muted">Social network website</p>
+			                    </div>
+			                </div>
+			                <div class="col-md-4 col-sm-6 portfolio-item">
+			                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+			                        <div class="portfolio-hover">
+			                            <div class="portfolio-hover-content">
+			                                <i class="fa fa-angle-double-right fa-3x"></i>
+			                            </div>
+			                        </div>
+			                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/spot-thumb.jpg" class="img-responsive" alt="">
+			                    </a>
+			                    <div class="portfolio-caption">
+			                        <h4>Spot</h4>
+			                        <p class="text-muted"> Brochure site &amp; web based app</p>
+			                    </div>
+			                </div>
+			                <div class="col-md-4 col-sm-6 portfolio-item">
+			                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+			                        <div class="portfolio-hover">
+			                            <div class="portfolio-hover-content">
+			                                <i class="fa fa-angle-double-right fa-3x"></i>
+			                            </div>
+			                        </div>
+			                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/clickgo-thumb.jpg" class="img-responsive" alt="">
+			                    </a>
+			                    <div class="portfolio-caption">
+			                        <h4>Click Go Home</h4>
+			                        <p class="text-muted">Brochure site &amp; web based app</p>
 			                    </div>
 			                </div>
 			            </div>
@@ -346,8 +388,12 @@
 	    </footer>
 
 
-	    <!-- Portfolio Modals -->
-    <!-- Use the modals below to showcase details about your portfolio projects! -->
+	
+
+
+
+
+	<!-- Portfolio Modals -->
 
     <!-- Portfolio Modal 1 -->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
