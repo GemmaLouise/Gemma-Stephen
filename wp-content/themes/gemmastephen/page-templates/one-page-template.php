@@ -124,41 +124,43 @@
 	                    <h3 class="section-subheading text-muted">My career so far...</h3>
 	                </div>
 	            </div>
+				
+				<div class="row">
+					<div class="col-sm-10 col-sm-offset-1">
+	                    <div class="row">
 
-				<div class="col-sm-10 col-sm-offset-1">
-                    <div class="row">
+							<div class="job-details clearfix">
+				                <div class="col-sm-4">
+				                    <h2>July 12 – Present</h2> 
+				                    <h3>Planys Mobile, Dunfermline</h3>
+				                    <p>Front-end Developer</p>
+				                </div>
 
-						<div class="job-details clearfix">
-			                <div class="col-sm-4">
-			                    <h2>July 12 – Present</h2> 
-			                    <h3>Planys Mobile, Dunfermline</h3>
-			                    <p>Front-end Developer</p>
-			                </div>
+				                <div class="col-sm-8">
+				                    <p class="description">
+				                    	<strong>My role:</strong>  Responsible for front-end development using HTML, CSS3/SASS, JavaScript, PHP with the chance to work on a number of bespoke projects from simple brochure sites to complex web applications. 
+				                    	This role saw me working closely to bridge the gap between the designer and backend developers in a fast paced start-up environment. 
+				                    </p>
+				                </div>
+				            </div>
+							<div class="job-details clearfix">
+								<div class="col-sm-4">
+				                    <h2>May 11 – July 12</h2> 
+				                    <h3>Zendit Ltd, Dunfermline</h3>
+				                    <p>Operations Support Engineer</p>
+				                </div>
+				                <div class="col-sm-8">
+									<p class="description">
+										<strong>My role:</strong> Initially employed as an intern for 1 month testing and creating websites and then progressed into full-time gaining more knowledge and skills in the field of web development. 
+										The role included UI design and CMS integration, managing and updating current client sites using technologies such as HTML, CSS, Javascript, PHP.
+										As part of this role, I also built relationships with clients and assisted operations between clients and developers. QA tested on web and mobile based applications, creating test documents and reporting and managing bugs
+									</p>
+				                </div>
+							</div>
 
-			                <div class="col-sm-8">
-			                    <p class="description">
-			                    	<strong>My role:</strong>  Responsible for front-end development using HTML, CSS3/SASS, JavaScript, PHP with the chance to work on a number of bespoke projects from simple brochure sites to complex web applications. 
-			                    	This role saw me working closely to bridge the gap between the designer and backend developers in a fast paced start-up environment. 
-			                    </p>
-			                </div>
 			            </div>
-						<div class="job-details clearfix">
-							<div class="col-sm-4">
-			                    <h2>May 11 – July 12</h2> 
-			                    <h3>Zendit Ltd, Dunfermline</h3>
-			                    <p>Operations Support Engineer</p>
-			                </div>
-			                <div class="col-sm-8">
-								<p class="description">
-									<strong>My role:</strong> Initially employed as an intern for 1 month testing and creating websites and then progressed into full-time gaining more knowledge and skills in the field of web development. 
-									The role included UI design and CMS integration, managing and updating current client sites using technologies such as HTML, CSS, Javascript, PHP.
-									As part of this role, I also built relationships with clients and assisted operations between clients and developers. QA tested on web and mobile based applications, creating test documents and reporting and managing bugs
-								</p>
-			                </div>
-						</div>
-
-		            </div>
-                </div>
+	                </div>
+	            </div>
 	        </div>
 	    </section>
 
@@ -276,62 +278,44 @@
 	                </div>
 	            </div>
 
-	            2009 –2011  Edinburgh Napier University, EdinburghBSc Digital Media, First Class Honours 2006 –2009  Carnegie College, DunfermlineHND Interactive Multimedia Creation (Carnegie Rose Bowl Winner 2009)2005 –2006  Adam Smith College, KirkcaldyNQ Administration2001 –2005Queen Anne High School, DunfermlineStandard Grade:English, Maths, French, History, Biology, Art, Drama, Administration
-
 
 	            <div class="row">
-	                <div class="col-sm-4">
-	                    <div class="team-member">
-	                        <h4>Prof. Sir Alfred Cuschieri</h4>
-	                        <p class="text-muted">Chief Scientific Advisor</p>
-	                    </div>
-	                </div>
-	                <div class="col-sm-8">
-	                    <p style="margin-top: 0;">
-	                        Alfred Cuschieri is Professor of Surgery at the Scuola Superiore Sant’Anna in Pisa and Chief Scientific Advisor to the Institute of Medical Science and Technology (IMSaT). Previously he was Professor and Head of Department of Surgery and Molecular Oncology at Ninewells Hospital and Medical School, University of Dundee. His research interests include minimal access therapy, endoscopic surgery, technology and micro-robotics, ergonomics, nanotechnology and nanoscience and virtual/augmented reality systems for skills training. Alfred Cuschieri is the European Editor-in-Chief of Surgical Endoscopy and serves on the Editorial Board of 10 other peer review journals.
-	                    </p>
-	                </div>
-	            </div>
+					<div class="col-sm-10 col-sm-offset-1">
+	                    <div class="row">
 
-	            <div class="row">
-	                <div class="col-sm-4">
-	                    <div class="team-member">
-	                        <h4>Dr. Jacob George</h4>
-	                        <p class="text-muted">Validation and Academic Lead</p>
-	                    </div>
-	                </div>
-	                <div class="col-sm-8">
-	                    <p>
-	                        Dr Jacob George, MB ChB, MRCP, MD is a senior clinical lecturer, consultant physician in clinical pharmacology and acute medicine. He is a trials expert and the Tayside representative of the Scottish Medicines Consortium. To date, Dr George has attracted in excess of £1.2m research funding.
-	                    </p>
-	                </div>
-	            </div>
+							<div class="job-details clearfix">
+				                <div class="col-sm-4">
+				                    <h2>2009 – 2011</h2> 
+				                    <h3>Edinburgh Napier University</h3>
+				                    <p>Edinburgh</p>
+				                </div>
 
-	            <div class="row">
-	                <div class="col-sm-4">
-	                    <div class="team-member">
-	                        <h4>Dr Deans Buchanan</h4>
-	                        <p class="text-muted">Civic Lead and Palliative Care Consultant</p>
-	                    </div>
-	                </div>
-	                <div class="col-sm-8">
-	                   <p>
-	                        Dr Deans Buchanan, MB ChB, BSc (Hons), M.D., FRCP. Clinical lead for Palliative care research in NHS Tayside and consultant in Palliative care medicine. He has published widely and the co-director for the Dundee University MPH programme. Dr Buchanan is a civic co-sponsor of the project.
-	                    </p>
-	                </div>
-	            </div>
+				                <div class="col-sm-8">
+				                    <h4>BSc Digital Media, First Class Honours</h4> 
+				                    <p class="description">	 
+				                    	Moving to Napier, this course furthered my skills in web development &amp; user experience and provided me with more programming skills such as Javascript and PHP. 
+				                    	The course also included sound theory &amp; production, a group project creating a video in HMP Prison Perth and 
+				                    	an internship within a startup company. This included design &amp; development of a website for a new product, graphic design and photography.
+				                   
+				                    </p>
+				                </div>
+				            </div>
+							<div class="job-details clearfix">
+								<div class="col-sm-4">
+				                    <h2>2006 – 2009</h2> 
+				                    <h3>Carnegie College</h3>
+				                    <p>Dunfermline</p>
+				                </div>
+				                <div class="col-sm-8">
+									<h4>HND Interactive Multimedia Creation</h4> 
+									<p class="description">
+										I developed a range of digital media skills from this course. It included a variety of subjects such as web design &amp; development, photography, 2D &amp; 3D animation, video production, sound production, digital imaging and graphic design. 
+										Having always been interested in web development, this is course is where I truly found my love for it. 
+									</p>
+				                </div>
+							</div>
 
-	            <div class="row">
-	                <div class="col-sm-4">
-	                    <div class="team-member">
-	                        <h4>Dr Roger Flint</h4>
-	                        <p class="text-muted">Doctor</p>
-	                    </div>
-	                </div>
-	                <div class="col-sm-8">
-	                    <p>
-	                        Founder. Doctor Flint Ltd is led by Dr Roger Flint, MB ChB, BSc. (Hons), MSc., OF., a medical doctor with a background in Public Health. His Masters degree involved the interrogation of large general practice data sets and producing novel search strategies. His work has been published in the Primary care respiratory journal.
-	                    </p>
+			            </div>
 	                </div>
 	            </div>
 
@@ -343,12 +327,23 @@
 	            <div class="row">
 	                <div class="col-sm-10 col-sm-offset-1">
 	                    <div class="details text-center">
-	                        <p>Want to get in touch? Email <strong><a href="mailto:info@planysmobile.com" target="_top">info@doctorflint.co.uk</a></strong></p>
+	                        <p>Want to get in touch? Email <strong><a href="mailto:hello@gemmastephen.co.uk" target="_top">hello@gemmastephen.co.uk</a></strong></p>
 	                    </div>
 	                 </div>
 	             </div>
 	         </div>              
 	    </section>
+
+
+	    <footer>
+	        <div class="container">
+	            <div class="row">
+	                <div class="col-md-12">
+	                    <p>&copy; <?php echo date(Y)?> Gemma L. Stephen. All rights reserved. </p>
+	                </div>
+	            </div>
+	        </div>
+	    </footer>
 
 
 	    <!-- Portfolio Modals -->
@@ -533,15 +528,7 @@
         </div>
     </div>
 
-	    <footer>
-	        <div class="container">
-	            <div class="row">
-	                <div class="col-md-12">
-	                    <span class="copyright">Copyright &copy; Doctor Flint Limited 2016 &bull; Company Number SC500992</span>
-	                </div>
-	            </div>
-	        </div>
-	    </footer>
-	    <?php wp_footer(); ?>
+    
+    <?php wp_footer(); ?>
 	</body>
 </html>
