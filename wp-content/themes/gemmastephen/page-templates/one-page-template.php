@@ -106,7 +106,7 @@
 							I graduated from Edinburgh Napier University with a first class honours degree in Digital Media but with a focus on web development. From this, I have spent my career so far working with some fantastic people on some interesting projects learning, developing and adding to my knowledge base.
 						</p>
 						<p>
-							Away from the computer desk, I have a passion for music and like going to as many gigs and festivals as I can. I enjoy keeping active whether it be going to the gym or swimming and with this comes a love for nutrition and cooking healthy food. But sometimes I love nothing more than watching weird comedies on Netflix or relaxing with a good book. 
+							Away from the computer desk, I have a <a href="http://www.last.fm/user/vertigoofbliss_" target="_blank">passion for music</a> and like going to as many gigs and festivals as I can. I enjoy keeping active and with this comes a love for nutrition and <a href="https://www.instagram.com/gemmalouisegetsfit/" target="_blank">cooking healthy food</a>. But sometimes I love nothing more than watching weird comedies on Netflix or relaxing with a good book. 
 						</p>
 
 	                </div>
@@ -208,21 +208,21 @@
 			                    </div>
 			                </div>
 			                <div class="col-md-4 col-sm-6 portfolio-item">
-			                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+			                    <a href="#cgh-modal" class="portfolio-link" data-toggle="modal">
 			                        <div class="portfolio-hover">
 			                            <div class="portfolio-hover-content">
 			                                <i class="fa fa-angle-double-right fa-3x"></i>
 			                            </div>
 			                        </div>
-			                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cgf-thumb.jpg" class="img-responsive" alt="">
+			                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/clickgo-thumb.jpg" class="img-responsive" alt="">
 			                    </a>
 			                    <div class="portfolio-caption">
-			                        <h4>Click Go Family</h4>
+			                        <h4>Click Go Home</h4>
 			                        <p class="text-muted">Brochure site &amp; web based app</p>
 			                    </div>
-			                </div>
+			                </div>			               
 			                <div class="col-md-4 col-sm-6 portfolio-item">
-			                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+			                    <a href="#planys-modal" class="portfolio-link" data-toggle="modal">
 			                        <div class="portfolio-hover">
 			                            <div class="portfolio-hover-content">
 			                                <i class="fa fa-angle-double-right fa-3x"></i>
@@ -232,7 +232,7 @@
 			                    </a>
 			                    <div class="portfolio-caption">
 			                        <h4>Planys Mobile</h4>
-			                        <p class="text-muted">Brochure site</p>
+			                        <p class="text-muted">Portfolio site</p>
 			                    </div>
 			                </div>
 			                <div class="col-md-4 col-sm-6 portfolio-item">
@@ -245,7 +245,7 @@
 			                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sds-thumb.jpg" class="img-responsive" alt="">
 			                    </a>
 			                    <div class="portfolio-caption">
-			                        <h4>SDS</h4>
+			                        <h4>I Can Skills</h4>
 			                        <p class="text-muted">Web based app</p>
 			                    </div>
 			                </div>
@@ -259,8 +259,8 @@
 			                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/inch-thumb.jpg" class="img-responsive" alt="">
 			                    </a>
 			                    <div class="portfolio-caption">
-			                        <h4>Inchdairnie</h4>
-			                        <p class="text-muted">Brochure site &amp; Wordpress</p>
+			                        <h4>Inchdairnie Distillery</h4>
+			                        <p class="text-muted">Brochure site with Wordpress</p>
 			                    </div>
 			                </div>
 			                <div class="col-md-4 col-sm-6 portfolio-item">
@@ -274,11 +274,11 @@
 			                    </a>
 			                    <div class="portfolio-caption">
 			                        <h4>Hiryzr</h4>
-			                        <p class="text-muted">Brochure site &amp; web based app</p>
+			                        <p class="text-muted">Web based app</p>
 			                    </div>
 			                </div>
 			                <div class="col-md-4 col-sm-6 portfolio-item">
-			                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+			                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
 			                        <div class="portfolio-hover">
 			                            <div class="portfolio-hover-content">
 			                                <i class="fa fa-angle-double-right fa-3x"></i>
@@ -292,7 +292,7 @@
 			                    </div>
 			                </div>
 			                <div class="col-md-4 col-sm-6 portfolio-item">
-			                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+			                    <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
 			                        <div class="portfolio-hover">
 			                            <div class="portfolio-hover-content">
 			                                <i class="fa fa-angle-double-right fa-3x"></i>
@@ -306,16 +306,16 @@
 			                    </div>
 			                </div>
 			                <div class="col-md-4 col-sm-6 portfolio-item">
-			                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+			                    <a href="#cgf-modal" class="portfolio-link" data-toggle="modal">
 			                        <div class="portfolio-hover">
 			                            <div class="portfolio-hover-content">
 			                                <i class="fa fa-angle-double-right fa-3x"></i>
 			                            </div>
 			                        </div>
-			                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/clickgo-thumb.jpg" class="img-responsive" alt="">
+			                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cgf-thumb.jpg" class="img-responsive" alt="">
 			                    </a>
 			                    <div class="portfolio-caption">
-			                        <h4>Click Go Home</h4>
+			                        <h4>Click Go Family</h4>
 			                        <p class="text-muted">Brochure site &amp; web based app</p>
 			                    </div>
 			                </div>
@@ -384,7 +384,13 @@
 	            <div class="row">
 	                <div class="col-sm-10 col-sm-offset-1">
 	                    <div class="details text-center">
-	                        <p>Want to get in touch? Email <strong><a href="mailto:hello@gemmastephen.co.uk" target="_top">hello@gemmastephen.co.uk</a></strong></p>
+	                        <p>Want to have a chat? <strong><a href="mailto:hello@gemmastephen.co.uk" target="_top">hello@gemmastephen.co.uk</a></strong></p>
+
+	                        <ul>
+	                        	<li id="li-icon"><a href="#" target="_blank"></a></li>
+  								<li id="tw-icon"><a href="#" target="_blank"></a></li>
+	                        </ul>
+
 	                    </div>
 	                 </div>
 	             </div>
@@ -425,21 +431,18 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <h2>Business Hound</h2>
-                                <p class="item-intro text-muted">Brochure site &mp; web based app</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/roundicons-free.png" alt="">
+                                <img class="img-responsive img-centered" src="<?php echo get_stylesheet_directory_uri(); ?>/images/bh-screens.png" alt="Business Hound Screens">
                                 <p>
 	                                <strong>What I did:</strong> HTML, CSS, Javascript, SEO, Responsive Design
 	                            </p>
                                 <p>
-                                    Business Hound is a financial admin site for small businesses to manage invoicing, record mileage via an app and track expenses. 
-                                    This included development of a responsive brochure site and the main web app. 
-                                    I worked on the front-end of this Ruby on Rails project collaboratively with the designer and back-end developers.
+                                    Business Hound is a financial admin site for small businesses to manage invoicing, record mileage via an app and track expenses. This included development of a responsive brochure site and web app. I worked on the front-end of this Ruby on Rails project collaboratively with the designer and back-end developers.
                                 </p>
                                 <ul class="list-inline">
                                     <li>Date: April 2016</li>
                                     <li>Client: Business Hound</li>
                                 </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                <a href="https://www.mybusinesshound.com/" target="_blank" class="btn btn-primary">View Project</a>
                             </div>
                         </div>
                     </div>
@@ -449,7 +452,7 @@
     </div>
 
     <!-- Portfolio Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="cgh-modal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="close-modal" data-dismiss="modal">
@@ -462,12 +465,20 @@
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                                <h2>Project Heading</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt="">
-                                <p><a href="http://designmodo.com/startup/?u=787">Startup Framework</a> is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.</p>
-                                <p>You can preview Startup Framework <a href="http://designmodo.com/startup/?u=787">here</a>.</p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                <h2>Click Go Home</h2>
+                                <img class="img-responsive img-centered" src="<?php echo get_stylesheet_directory_uri(); ?>/images/cg-screens.png" alt="Click Go Screens">
+                                <p>
+                                	<strong>What I did:</strong> HTML, CSS, Javascript, Responsive Design
+                                </p>
+                                <p>
+	                                The Click Go app is used to support people in care and help manage their appointments and budgets together with the team around them. This meant the app would be used by mainly an older target user so the app had to be accessible, clear and easy to use. 
+	                                The user was also supplied with a Samsung tablet by the client so the site was built responsively with this in mind.
+	                            </p>
+                                <ul class="list-inline">
+                                    <li>Date: August 2015</li>
+                                    <li>Client: Carr Gomm</li>
+                                </ul>
+                                <a href="http://user.clickgo2.com/" target="_blank" class="btn btn-primary">View Project</a>
                             </div>
                         </div>
                     </div>
@@ -477,7 +488,7 @@
     </div>
 
     <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="planys-modal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="close-modal" data-dismiss="modal">
@@ -490,12 +501,19 @@
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt="">
-                                <p>Treehouse is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
-                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/">FreebiesXpress.com</a>.</p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                <h2>Planys Mobile</h2>
+                                <img class="img-responsive img-centered" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pl-screens.png" alt="Planys Mobile Screens">
+                                <p>
+                                	<strong>What I did:</strong> HTML, CSS, Javascript, Responsive Design, PHP, SEO
+                                </p>
+                                <p>
+	                                The project was to re-develop and build a portfolio site to showcase work by the company. Having been provided the design from the designer, development was my sole responsibility. This included all front-end work, PHP and SEO improvements.
+	                            </p>
+                                <ul class="list-inline">
+                                    <li>Date: May 2016</li>
+                                    <li>Client: Planys Mobile</li>
+                                </ul>
+                                <a href="http://www.planysmobile.com/" target="_blank" class="btn btn-primary">View Project</a>
                             </div>
                         </div>
                     </div>
@@ -518,12 +536,18 @@
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/golden-preview.png" alt="">
-                                <p>Start Bootstrap's Agency theme is based on Golden, a free PSD website template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Golden is a modern and clean one page web template that was made exclusively for Best PSD Freebies. This template has a great portfolio, timeline, and meet your team sections that can be easily modified to fit your needs.</p>
-                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/golden-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                <h2>I Can Skills</h2>
+                                <img class="img-responsive img-centered" src="<?php echo get_stylesheet_directory_uri(); ?>/images/sds-screens.png" alt="I Can Skills Screens">
+                                <p>
+                                	<strong>What I did:</strong> HTML, CSS, Javascript, Responsive Design
+                                </p>
+                                <p>
+	                                I Can Skills was an extension of an existing project (My World of Work) aimed at primary school children. Helping teachers to ensure children learn skills for work using "I Can" statements. The app was used to allow pupils to report their progress on activities and the skills they gained towards completing a statement. Working with the back-end developers, my focus on this project was developing the front-end code.
+	                            </p>
+                                <ul class="list-inline">
+                                    <li>Date: Nov 2015</li>
+                                    <li>Client: Skills Development Scotland</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -546,12 +570,19 @@
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/escape-preview.png" alt="">
-                                <p>Escape is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Escape is a one page web template that was designed with agencies in mind. This template is ideal for those looking for a simple one page solution to describe your business and offer your services.</p>
-                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/escape-one-page-psd-web-template/">FreebiesXpress.com</a>.</p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                <h2>Inchdairnie Distillery</h2>
+                                <img class="img-responsive img-centered" src="<?php echo get_stylesheet_directory_uri(); ?>/images/inch-screens.png" alt="Inchdairnie Distillery Screens">
+                                <p>
+                                	<strong>What I did:</strong> HTML, CSS, Javascript, Responsive Design, Wordpress Integration
+                                </p>
+                                <p>
+	                                A brochure website was needed for a new whisky distillery opening in Inchdairnie. The project required a countdown to the first whisky available (13 years) and management via Wordpress. I worked with the designer to develop this responsive site, build a theme and integrate Wordpress.
+	                            </p>
+                                <ul class="list-inline">
+                                    <li>Date: Feb 2016</li>
+                                    <li>Client: Steely Fox</li>
+                                </ul>
+                                <a href="http://www.inchdairniedistillery.com/" target="_blank" class="btn btn-primary">View Project</a>
                             </div>
                         </div>
                     </div>
@@ -574,12 +605,125 @@
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/dreams-preview.png" alt="">
-                                <p>Dreams is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Dreams is a modern one page web template designed for almost any purpose. It’s a beautiful template that’s designed with the Bootstrap framework in mind.</p>
-                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                                <h2>Hiryzr</h2>
+                                <img class="img-responsive img-centered" src="<?php echo get_stylesheet_directory_uri(); ?>/images/hi-screens.png" alt="Hiryzr Screens">
+                                <p>
+                                	<strong>What I did:</strong> HTML, CSS, Javascript, Responsive Design
+                                </p>
+                                <p>
+	                                Hiryzr is web app that helps to match users skills to potential jobs and opportunities. I worked on the front-end development of this project collaboratively with back-end developers and the designer.
+	                            </p>
+                                <ul class="list-inline">
+                                    <li>Date: Dec 2015</li>
+                                    <li>Client: Digital Connextions</li>
+                                </ul>
+                                <a href="http://www.inchdairniedistillery.com/" target="_blank" class="btn btn-primary">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Portfolio Modal 7 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Lydia Osteoporosis</h2>
+                                <img class="img-responsive img-centered" src="<?php echo get_stylesheet_directory_uri(); ?>/images/qmu-screens.png" alt="Lydia Osteoporosis Screens">
+                                <p>
+                                	<strong>What I did:</strong> HTML, CSS, Javascript, Responsive Design
+                                </p>
+                                <p>
+	                                The Lydia Osteoporosis Project is aimed at raising awareness for the Osteoporosis condition and a blog style website was developed to provide information and allow management of articles. On this project,  I developed the front-end code working with the designer and back-end developers.
+	                            </p>
+                                <ul class="list-inline">
+                                    <li>Date: Aug 2015</li>
+                                    <li>Client: Queen Margaret University</li>
+                                </ul>
+                                <a href="http://www.lydiaosteoporosis.com/" target="_blank" class="btn btn-primary">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 8 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Spot</h2>
+                                <img class="img-responsive img-centered" src="<?php echo get_stylesheet_directory_uri(); ?>/images/spot-screens.png" alt="Spot Screens">
+                                <p>
+                                	<strong>What I did:</strong> HTML, CSS, Javascript, Responsive Design
+                                </p>
+                                <p>
+									Spot is a HTML5 webapp built using backbone.js and is a calculator used to assist medical professionals when transferring patients from one drug to another or transferring how it's administered. Designed for use on a mobile device, I worked on the front-end code together with back-end developers. 
+	                            </p>
+                                <ul class="list-inline">
+                                    <li>Date: Jun 2016</li>
+                                    <li>Client: Dr. Flint</li>
+                                </ul>
+                                <a href="http://www.doctorflint.co.uk/" target="_blank" class="btn btn-primary">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 9 -->
+    <div class="portfolio-modal modal fade" id="cgf-modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Click Go Family</h2>
+                                <img class="img-responsive img-centered" src="<?php echo get_stylesheet_directory_uri(); ?>/images/cgf-screens.png" alt="Click Go Family Screens">
+                                <p>
+	                                <strong>What I did:</strong> HTML, CSS, Javascript, Responsive Design
+	                            </p>
+                                <p>
+	                                Similar to Click Go Home, the Click Go Family app focuses on helping people who are cared for by their own families as opposed to a formal care system. A responsive webapp was developed to help manage scheduling, appointments, status updates, tasks and visits. I worked on the front-end of this mainly in HTML, CSS and jQuery/Javascript with the back-end development team.
+	                            </p>
+                                <ul class="list-inline">
+                                    <li>Date: Aug 2016</li>
+                                    <li>Client: Carr Gomm</li>
+                                </ul>
+                                <a href="https://www.mybusinesshound.com/" target="_blank" class="btn btn-primary">View Project</a>
                             </div>
                         </div>
                     </div>

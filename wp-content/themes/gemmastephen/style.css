@@ -53,19 +53,21 @@ strong{
 
 .btn-primary {
   	color: white;
-  	background-color: #fed136;
-  	border-color: #fed136;
+  	background-color: #ED5341;
+  	border-color: #ED5341;
   	text-transform: uppercase;
   	font-weight: 700;
+    transition:all .2s;
 }
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary.active,
-.open .dropdown-toggle.btn-primary {
+.open .dropdown-toggle.btn-primary
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover{
   	color: white;
-  	background-color: #fec503;
-  	border-color: #f6bf01;
+  	background-color: #EC8374;
+  	border-color: #EC8374;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -87,10 +89,9 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  	background-color: #fed136;
-  	border-color: #fed136;
+  	background-color: #ED5341;
+  	border-color: #ED5341;
 }
-
 
 
 
@@ -115,35 +116,35 @@ fieldset[disabled] .btn-primary.active {
   	border-color: rgba(255, 255, 255, 0.02);
 }
 .navbar-custom .navbar-toggle {
-  	background-color: #fed136;
-  	border-color: #fed136;
+  	background-color: #ED5341;
+  	border-color: #ED5341;
   	text-transform: uppercase;
-  	color: #aba299;
+  	color: #ffffff;
   	font-size: 12px;
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  	background-color: #fed136;
+  	background-color: #ED5341;
 }
-.navbar-custom .nav li a {
+.navbar-custom .nav li a,
+.navbar-custom .nav li a:focus {
   	text-transform: uppercase;
   	font-weight: 600;
     letter-spacing: 1px;
     font-size: 14px;
     color: #aba299;
 }
-.navbar-custom .nav li a:hover,
-.navbar-custom .nav li a:focus {
+.navbar-custom .nav li a:hover {
   	color: #15495F;
   	outline: none;
 }
-.navbar-custom .navbar-nav > .active > a {
+.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:focus {
   	border-radius: 0;
   	color: #15495F;
   	background-color: transparent;
 }
-.navbar-custom .navbar-nav > .active > a:hover,
-.navbar-custom .navbar-nav > .active > a:focus {
+.navbar-custom .navbar-nav > .active > a:hover {
   	color: #15495F;
   	background-color: transparent;
 }
@@ -248,14 +249,17 @@ section h3.section-subheading {
 
 
 footer{
+    background: #15495F;
     text-align: center;
-    padding:0 0 10px;
+    padding: 12px 0;
 }
+
 
 footer p{
-    font-size:14px;
+    font-size:13px;
+    margin-bottom:0;
+    color:#ffffff;
 }
-
 
 
 /* Experience
@@ -365,15 +369,15 @@ footer p{
   box-shadow: none;
   border: none;
   min-height: 100%;
-  padding: 100px 0;
+  padding: 80px 0 40px;
   text-align: center;
 }
 .portfolio-modal .modal-content h2 {
-  margin-bottom: 15px;
-  font-size: 3em;
+    margin-bottom: 60px;
+    font-size: 36px;
 }
 .portfolio-modal .modal-content p {
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 .portfolio-modal .modal-content p.item-intro {
   margin: 20px 0 30px;
@@ -386,22 +390,26 @@ footer p{
   margin-top: 0;
 }
 .portfolio-modal .modal-content img {
-  margin-bottom: 30px;
+  margin: 0 auto 50px;
+}
+.portfolio-modal .btn{
+  padding: 10px 30px;
 }
 .portfolio-modal .close-modal {
   position: absolute;
-  width: 75px;
-  height: 75px;
+  width: 65px;
+  height: 65px;
   background-color: transparent;
   top: 25px;
   right: 25px;
   cursor: pointer;
+  transition:all .2s;
 }
 .portfolio-modal .close-modal:hover {
   opacity: 0.3;
 }
 .portfolio-modal .close-modal .lr {
-  height: 75px;
+  height: 65px;
   width: 1px;
   margin-left: 35px;
   background-color: #222222;
@@ -413,7 +421,7 @@ footer p{
   z-index: 1051;
 }
 .portfolio-modal .close-modal .lr .rl {
-  height: 75px;
+  height: 65px;
   width: 1px;
   background-color: #222222;
   transform: rotate(90deg);
@@ -445,6 +453,47 @@ body {
   webkit-tap-highlight-color: #F2E5D1;
 }
 
+
+
+/* Contact
+----------------------------------------------------------------------------------------------- */
+#contact-info{
+  padding: 80px 0 100px;
+}
+
+#contact-info p{
+  margin-bottom:50px;
+}
+
+#contact-info ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#contact-info li {
+    display: inline-block;
+}
+#contact-info ul li a {
+    height: 59px;
+    display: block;
+}
+
+#li-icon {
+    width: 59px;
+    background: url('images/social-icons.png') 0 0;
+}
+#li-icon a:hover {
+    background: url('images/social-icons.png') 0 -59px;
+}
+
+#tw-icon {
+    width: 58px;
+    background: url('images/social-icons.png') -59px 0;
+    margin-left:5px;
+}
+#tw-icon a:hover {
+    background: url('images/social-icons.png') -59px -59px;
+}
 
 
 
