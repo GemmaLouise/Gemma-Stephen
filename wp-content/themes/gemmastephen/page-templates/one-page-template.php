@@ -22,24 +22,35 @@
 		<?php endif; ?>
 
 		<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+		
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-83856589-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
 
 		<?php wp_head(); ?>
 	</head>
 
-	<body>
+	<body id="page-top" class="index"> 
 		<!-- Navigation -->
 	    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
 	        <div class="container">
-	            <div class="navbar-header page-scroll">
+	            <div class="navbar-header">
 	                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-	                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+	                    <span class="sr-only">Toggle navigation</span><i class="fa fa-bars"></i>
 	                </button>
 	                <a class="navbar-brand page-scroll" href="#page-top">Gemma L. Stephen</a>
 	            </div>
 
 	            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	                <ul class="nav navbar-nav navbar-right">
-	                    <li class="hidden">
+		               	<li class="hidden">
 	                        <a href="#page-top"></a>
 	                    </li>
 	                    <li>
@@ -67,14 +78,14 @@
 	    <header>
 	        <div class="container">
 	        	<div class="row">
-	        		<div class="col-sm-8 col-sm-offset-2">
+	        		<div class="col-md-8 col-md-offset-2 col-sm-12">
 			            <div class="intro-text">
 			            	<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/avatar1.jpg" class="avatar" alt="Avatar"/>
 			                <h1 class="intro-heading">
 			                    Gemma L. Stephen
 			                </h1>
 			                <p>
-			                 	HTML &#155; CSS &#155; Javascript &#155; Accessible &#155; Responsive &#155; Adaptive
+			                 	HTML &rsaquo; CSS &rsaquo; Javascript &rsaquo; Accessible &rsaquo; Responsive &rsaquo; Adaptive
 			                 </p>
 			                
 			                <a href="#about" class="page-scroll"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/arrow-down1.png" alt="Scroll down"></a>
@@ -126,17 +137,17 @@
 	            </div>
 				
 				<div class="row">
-					<div class="col-sm-10 col-sm-offset-1">
+					<div class="col-md-10 col-md-offset-1 col-sm-12">
 	                    <div class="row">
 
 	                    	<div class="job-details clearfix">
-				                <div class="col-sm-4">
-				                    <h2>Sept 16 – Present</h2> 
+				                <div class="col-md-4 col-sm-5">
+				                    <h2>Sep 16 – Now</h2> 
 				                    <h3>E-Com Scotland, Dunfermline</h3>
-				                    <p>Front-end Designer</p>
+				                    <p class="small">Front-end Designer</p>
 				                </div>
 
-				                <div class="col-sm-8">
+				                <div class="col-md-8 col-sm-7">
 				                    <p class="description">
 				                    	<strong>My role:</strong> Info coming soon.
 				                    </p>
@@ -144,13 +155,13 @@
 				            </div>
 
 							<div class="job-details clearfix">
-				                <div class="col-sm-4">
-				                    <h2>July 12 – September 16</h2> 
+				                <div class="col-md-4 col-sm-5">
+				                    <h2>Jul 12 – Sep 16</h2> 
 				                    <h3>Planys Mobile, Dunfermline</h3>
-				                    <p>Front-end Developer</p>
+				                    <p class="small">Front-end Developer</p>
 				                </div>
 
-				                <div class="col-sm-8">
+				                <div class="col-md-8 col-sm-7">
 				                    <p class="description">
 				                    	<strong>My role:</strong>  Responsible for front-end development using HTML, CSS3/SASS, JavaScript, PHP with the chance to work on a number of bespoke projects from simple brochure sites to complex web applications. 
 				                    	This role saw me working closely to bridge the gap between the designer and backend developers in a fast paced start-up environment. 
@@ -159,12 +170,12 @@
 				            </div>
 
 							<div class="job-details clearfix">
-								<div class="col-sm-4">
-				                    <h2>May 11 – July 12</h2> 
+								<div class="col-md-4 col-sm-5">
+				                    <h2>May 11 – Jul 12</h2> 
 				                    <h3>Zendit Ltd, Dunfermline</h3>
-				                    <p>Operations Support Engineer</p>
+				                    <p class="small">Operations Support Engineer</p>
 				                </div>
-				                <div class="col-sm-8">
+				                <div class="col-md-8 col-sm-7">
 									<p class="description">
 										<strong>My role:</strong> Initially employed as an intern for 1 month testing and creating websites and then progressed into full-time gaining more knowledge and skills in the field of web development. 
 										The role included UI design and CMS integration, managing and updating current client sites using technologies such as HTML, CSS, Javascript, PHP.
@@ -204,7 +215,7 @@
 			                    </a>
 			                    <div class="portfolio-caption">
 			                        <h4>Business Hound</h4>
-			                        <p class="text-muted">Brochure site &amp; web based app</p>
+			                        <p class="text-muted">Brochure &amp; web app</p>
 			                    </div>
 			                </div>
 			                <div class="col-md-4 col-sm-6 portfolio-item">
@@ -218,7 +229,7 @@
 			                    </a>
 			                    <div class="portfolio-caption">
 			                        <h4>Click Go Home</h4>
-			                        <p class="text-muted">Brochure site &amp; web based app</p>
+			                        <p class="text-muted">Brochure &amp; web app</p>
 			                    </div>
 			                </div>			               
 			                <div class="col-md-4 col-sm-6 portfolio-item">
@@ -246,7 +257,7 @@
 			                    </a>
 			                    <div class="portfolio-caption">
 			                        <h4>I Can Skills</h4>
-			                        <p class="text-muted">Web based app</p>
+			                        <p class="text-muted">Web app</p>
 			                    </div>
 			                </div>
 			                <div class="col-md-4 col-sm-6 portfolio-item">
@@ -260,7 +271,7 @@
 			                    </a>
 			                    <div class="portfolio-caption">
 			                        <h4>Inchdairnie Distillery</h4>
-			                        <p class="text-muted">Brochure site with Wordpress</p>
+			                        <p class="text-muted">Brochure with Wordpress</p>
 			                    </div>
 			                </div>
 			                <div class="col-md-4 col-sm-6 portfolio-item">
@@ -274,7 +285,7 @@
 			                    </a>
 			                    <div class="portfolio-caption">
 			                        <h4>Hiryzr</h4>
-			                        <p class="text-muted">Web based app</p>
+			                        <p class="text-muted">Web app</p>
 			                    </div>
 			                </div>
 			                <div class="col-md-4 col-sm-6 portfolio-item">
@@ -302,7 +313,7 @@
 			                    </a>
 			                    <div class="portfolio-caption">
 			                        <h4>Spot</h4>
-			                        <p class="text-muted"> Brochure site &amp; web based app</p>
+			                        <p class="text-muted"> Brochure &amp; web app</p>
 			                    </div>
 			                </div>
 			                <div class="col-md-4 col-sm-6 portfolio-item">
@@ -316,7 +327,7 @@
 			                    </a>
 			                    <div class="portfolio-caption">
 			                        <h4>Click Go Family</h4>
-			                        <p class="text-muted">Brochure site &amp; web based app</p>
+			                        <p class="text-muted">Brochure &amp; web app</p>
 			                    </div>
 			                </div>
 			            </div>
@@ -337,14 +348,14 @@
 
 
 	            <div class="row">
-					<div class="col-sm-10 col-sm-offset-1">
+					<div class="col-md-10 col-md-offset-1 col-sm-12">
 	                    <div class="row">
 
 							<div class="job-details clearfix">
 				                <div class="col-sm-4">
 				                    <h2>2009 – 2011</h2> 
 				                    <h3>Edinburgh Napier University</h3>
-				                    <p>Edinburgh</p>
+				                    <p class="small">Edinburgh</p>
 				                </div>
 
 				                <div class="col-sm-8">
@@ -361,7 +372,7 @@
 								<div class="col-sm-4">
 				                    <h2>2006 – 2009</h2> 
 				                    <h3>Carnegie College</h3>
-				                    <p>Dunfermline</p>
+				                    <p class="small">Dunfermline</p>
 				                </div>
 				                <div class="col-sm-8">
 									<h4>HND Interactive Multimedia Creation</h4> 
@@ -384,11 +395,11 @@
 	            <div class="row">
 	                <div class="col-sm-10 col-sm-offset-1">
 	                    <div class="details text-center">
-	                        <p>Want to have a chat? <strong><a href="mailto:hello@gemmastephen.co.uk" target="_top">hello@gemmastephen.co.uk</a></strong></p>
+	                        <h2>Want to have a chat? <strong><a href="mailto:hello@gemmastephen.co.uk" target="_top">hello@gemmastephen.co.uk</a></strong></h2>
 
 	                        <ul>
-	                        	<li id="li-icon"><a href="#" target="_blank"></a></li>
-  								<li id="tw-icon"><a href="#" target="_blank"></a></li>
+	                        	<li id="li-icon"><a href="https://www.linkedin.com/in/gemma-stephen-02801a25?trk=hp-identity-photo" target="_blank"></a></li>
+  								<li id="tw-icon"><a href="https://twitter.com/GemmaStephen" target="_blank"></a></li>
 	                        </ul>
 
 	                    </div>

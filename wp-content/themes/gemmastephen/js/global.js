@@ -1,7 +1,7 @@
 (function($) {
-    "use strict"; // Start of use strict
+    "use strict";
 
-    // jQuery for page scrolling feature - requires jQuery Easing plugin
+    // jQuery for page scrolling feature 
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
@@ -29,9 +29,9 @@
     })
 
     $('.nav a').on('click', function(){ 
-          if($('.navbar-toggle').is(':visible')){
-              $(".navbar-toggle").trigger( "click" );
-         }
-      });
+        if($('.navbar-toggle').is(':visible')){
+            $(".navbar-toggle").trigger( "click" );
+        }
+    });
 
-})(jQuery); // End of use strict
+})(jQuery);
