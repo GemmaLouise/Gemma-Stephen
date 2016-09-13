@@ -3,12 +3,13 @@
  * The template for displaying 404 pages (not found)
  *
  * @package WordPress
- * @subpackage Twenty_Sixteen
+ * @subpackage gemmastephen
  * @since Twenty Sixteen 1.0
  */
 
 get_header(); ?>
 
+<body> 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
@@ -30,5 +31,8 @@ get_header(); ?>
 
 	</div><!-- .content-area -->
 
-<?php get_sidebar(); ?>
-<?php get_footer(); ?>
+	<?php get_sidebar(); ?>
+	<?php get_footer(); ?>
+
+	</body>
+</html>

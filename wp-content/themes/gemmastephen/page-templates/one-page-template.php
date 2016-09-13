@@ -7,72 +7,44 @@
  */
 ?>
 
-<!DOCTYPE html>
-	<html <?php language_attributes(); ?> class="no-js">
-	<head>
-		<meta charset="<?php bloginfo( 'charset' ); ?>">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="keywords" content="HTML, CSS, XHTML, JavaScript, JQuery, Front end, web development">
-		<meta name="description" content="Gemma Stephen - front end web developer">
+<?php get_header(); ?>
 
-		<link rel="shortcut icon" href="<?php bloginfo('stylesheet_directory'); ?>/images/favicon.png" />
-		<link rel="profile" href="http://gmpg.org/xfn/11">
-		<?php if ( is_singular() && pings_open( get_queried_object() ) ) : ?>
-		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-		<?php endif; ?>
+<body id="page-top" class="index"> 
+	<!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span><i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Gemma L. Stephen</a>
+            </div>
 
-		<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
-		
-		<script>
-		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-		  ga('create', 'UA-83856589-1', 'auto');
-		  ga('send', 'pageview');
-
-		</script>
-
-		<?php wp_head(); ?>
-	</head>
-
-	<body id="page-top" class="index"> 
-		<!-- Navigation -->
-	    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
-	        <div class="container">
-	            <div class="navbar-header">
-	                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-	                    <span class="sr-only">Toggle navigation</span><i class="fa fa-bars"></i>
-	                </button>
-	                <a class="navbar-brand page-scroll" href="#page-top">Gemma L. Stephen</a>
-	            </div>
-
-	            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	                <ul class="nav navbar-nav navbar-right">
-		               	<li class="hidden">
-	                        <a href="#page-top"></a>
-	                    </li>
-	                    <li>
-	                        <a class="page-scroll" href="#about">About</a>
-	                    </li>
-	                    <li>
-	                        <a class="page-scroll" href="#experience">Experience</a>
-	                    </li>
-	                    <li>
-	                        <a class="page-scroll" href="#work">Work</a>
-	                    </li>
-	                    <li>
-	                        <a class="page-scroll" href="#education">Education</a>
-	                    </li>
-	                    <li>
-	                        <a class="page-scroll" href="#contact-info">Contact</a>
-	                    </li>
-	                </ul>
-	            </div>
-	        </div>
-	        
-	    </nav>	
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+	               	<li class="hidden">
+                        <a href="#page-top">Page top</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#experience">Experience</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#work">Work</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#education">Education</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact-info">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+    </nav>	
 
 	     <!-- Header -->
 	    <header>
@@ -80,15 +52,15 @@
 	        	<div class="row">
 	        		<div class="col-md-8 col-md-offset-2 col-sm-12">
 			            <div class="intro-text">
-			            	<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/avatar1.jpg" class="avatar" alt="Avatar"/>
+			            	<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/avatar1.jpg" width="200px" height="200px" class="avatar" alt="Avatar"/>
 			                <h1 class="intro-heading">
 			                    Gemma L. Stephen
 			                </h1>
 			                <p>
-			                 	HTML &rsaquo; CSS &rsaquo; Javascript &rsaquo; Accessible &rsaquo; Responsive &rsaquo; Adaptive
+			                 	HTML &rsaquo; CSS &rsaquo; Javascript &rsaquo; Accessible &rsaquo; Responsive
 			                 </p>
 			                
-			                <a href="#about" class="page-scroll"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/arrow-down1.png" alt="Scroll down"></a>
+			                <a href="#about" class="page-scroll"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/arrow-down1@2x.png" width="54px" height="56px" alt="Scroll down"><span class="sr-only">Scroll Down</span></a>
 			            </div>
 			        </div>
 		        </div>
@@ -117,7 +89,7 @@
 							I graduated from Edinburgh Napier University with a first class honours degree in Digital Media but with a focus on web development. From this, I have spent my career so far working with some fantastic people on some interesting projects learning, developing and adding to my knowledge base.
 						</p>
 						<p>
-							Away from the computer desk, I have a <a href="http://www.last.fm/user/vertigoofbliss_" target="_blank">passion for music</a> and like going to as many gigs and festivals as I can. I enjoy keeping active and with this comes a love for nutrition and <a href="https://www.instagram.com/gemmalouisegetsfit/" target="_blank">cooking healthy food</a>. But sometimes I love nothing more than watching weird comedies on Netflix or relaxing with a good book. 
+							Away from the computer desk, I have a <a href="http://www.last.fm/user/vertigoofbliss_" target="_blank">passion for music</a> and like going to as many gigs and festivals as I can. I enjoy keeping active and with this comes a love for nutrition and cooking healthy food. But sometimes I love nothing more than watching weird comedies on Netflix or relaxing with a good book. 
 						</p>
 
 	                </div>
@@ -144,7 +116,7 @@
 				                <div class="col-md-4 col-sm-5">
 				                    <h2>Sep 16 – Now</h2> 
 				                    <h3>E-Com Scotland, Dunfermline</h3>
-				                    <p class="small">Front-end Designer</p>
+				                    <p class="small">Front End Designer</p>
 				                </div>
 
 				                <div class="col-md-8 col-sm-7">
@@ -158,7 +130,7 @@
 				                <div class="col-md-4 col-sm-5">
 				                    <h2>Jul 12 – Sep 16</h2> 
 				                    <h3>Planys Mobile, Dunfermline</h3>
-				                    <p class="small">Front-end Developer</p>
+				                    <p class="small">Front End Developer</p>
 				                </div>
 
 				                <div class="col-md-8 col-sm-7">
@@ -211,7 +183,8 @@
 			                                <i class="fa fa-angle-double-right fa-3x"></i>
 			                            </div>
 			                        </div>
-			                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/bh-thumb.jpg" class="img-responsive" alt="">
+			                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/bh-thumb.jpg" class="img-responsive" alt="Business Hound Thumbnail" width="360px" height="260px">
+			                        <span class="sr-only">View Business Hound</span>
 			                    </a>
 			                    <div class="portfolio-caption">
 			                        <h4>Business Hound</h4>
@@ -225,7 +198,7 @@
 			                                <i class="fa fa-angle-double-right fa-3x"></i>
 			                            </div>
 			                        </div>
-			                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/clickgo-thumb.jpg" class="img-responsive" alt="">
+			                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/clickgo-thumb.jpg" class="img-responsive" alt="Click Go Home Thumbnail" width="360px" height="260px">
 			                    </a>
 			                    <div class="portfolio-caption">
 			                        <h4>Click Go Home</h4>
@@ -239,7 +212,7 @@
 			                                <i class="fa fa-angle-double-right fa-3x"></i>
 			                            </div>
 			                        </div>
-			                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/planys-thumb.jpg" class="img-responsive" alt="">
+			                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/planys-thumb.jpg" class="img-responsive" alt="Planys Mobile Thumbnail" width="360px" height="260px">
 			                    </a>
 			                    <div class="portfolio-caption">
 			                        <h4>Planys Mobile</h4>
@@ -253,7 +226,7 @@
 			                                <i class="fa fa-angle-double-right fa-3x"></i>
 			                            </div>
 			                        </div>
-			                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sds-thumb.jpg" class="img-responsive" alt="">
+			                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sds-thumb.jpg" class="img-responsive" alt="I Can Skills Thumbnail" width="360px" height="260px">
 			                    </a>
 			                    <div class="portfolio-caption">
 			                        <h4>I Can Skills</h4>
@@ -267,7 +240,7 @@
 			                                <i class="fa fa-angle-double-right fa-3x"></i>
 			                            </div>
 			                        </div>
-			                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/inch-thumb.jpg" class="img-responsive" alt="">
+			                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/inch-thumb.jpg" class="img-responsive" alt="Inchdairnie Distillery Thumbnail" width="360px" height="260px">
 			                    </a>
 			                    <div class="portfolio-caption">
 			                        <h4>Inchdairnie Distillery</h4>
@@ -281,7 +254,7 @@
 			                                <i class="fa fa-angle-double-right fa-3x"></i>
 			                            </div>
 			                        </div>
-			                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/hiryzr-thumb.jpg" class="img-responsive" alt="">
+			                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/hiryzr-thumb.jpg" class="img-responsive" alt="Hiryzr Thumbnail" width="360px" height="260px">
 			                    </a>
 			                    <div class="portfolio-caption">
 			                        <h4>Hiryzr</h4>
@@ -295,7 +268,7 @@
 			                                <i class="fa fa-angle-double-right fa-3x"></i>
 			                            </div>
 			                        </div>
-			                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/qmu-thumb.jpg" class="img-responsive" alt="">
+			                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/qmu-thumb.jpg" class="img-responsive" alt="Lydia Osteoporosis Thumbnail" width="360px" height="260px">
 			                    </a>
 			                    <div class="portfolio-caption">
 			                        <h4>Lydia Osteoporosis</h4>
@@ -309,7 +282,7 @@
 			                                <i class="fa fa-angle-double-right fa-3x"></i>
 			                            </div>
 			                        </div>
-			                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/spot-thumb.jpg" class="img-responsive" alt="">
+			                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/spot-thumb.jpg" class="img-responsive" alt="Spot Thumbnail" width="360px" height="260px">
 			                    </a>
 			                    <div class="portfolio-caption">
 			                        <h4>Spot</h4>
@@ -323,7 +296,7 @@
 			                                <i class="fa fa-angle-double-right fa-3x"></i>
 			                            </div>
 			                        </div>
-			                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cgf-thumb.jpg" class="img-responsive" alt="">
+			                        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cgf-thumb.jpg" class="img-responsive" alt="Click Go Family Thumbnail" width="360px" height="260px">
 			                    </a>
 			                    <div class="portfolio-caption">
 			                        <h4>Click Go Family</h4>
@@ -409,15 +382,7 @@
 	    </section>
 
 
-	    <footer>
-	        <div class="container">
-	            <div class="row">
-	                <div class="col-md-12">
-	                    <p>&copy; <?php echo date(Y)?> Gemma L. Stephen. All rights reserved. </p>
-	                </div>
-	            </div>
-	        </div>
-	    </footer>
+	   <?php get_footer(); ?>
 
 
 	
@@ -442,7 +407,7 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <h2>Business Hound</h2>
-                                <img class="img-responsive img-centered" src="<?php echo get_stylesheet_directory_uri(); ?>/images/bh-screens.png" alt="Business Hound Screens">
+                                <img class="img-responsive img-centered" src="<?php echo get_stylesheet_directory_uri(); ?>/images/bh-screens.png" width="799px" height="390px" alt="Business Hound Screens">
                                 <p>
 	                                <strong>What I did:</strong> HTML, CSS, Javascript, SEO, Responsive Design
 	                            </p>
@@ -477,7 +442,7 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <h2>Click Go Home</h2>
-                                <img class="img-responsive img-centered" src="<?php echo get_stylesheet_directory_uri(); ?>/images/cg-screens.png" alt="Click Go Screens">
+                                <img class="img-responsive img-centered" src="<?php echo get_stylesheet_directory_uri(); ?>/images/cg-screens.png" width="811px" height="405px" alt="Click Go Screens">
                                 <p>
                                 	<strong>What I did:</strong> HTML, CSS, Javascript, Responsive Design
                                 </p>
@@ -489,7 +454,7 @@
                                     <li>Date: August 2015</li>
                                     <li>Client: Carr Gomm</li>
                                 </ul>
-                                <a href="http://user.clickgo2.com/" target="_blank" class="btn btn-primary">View Project</a>
+
                             </div>
                         </div>
                     </div>
@@ -513,7 +478,7 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <h2>Planys Mobile</h2>
-                                <img class="img-responsive img-centered" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pl-screens.png" alt="Planys Mobile Screens">
+                                <img class="img-responsive img-centered" src="<?php echo get_stylesheet_directory_uri(); ?>/images/pl-screens.png" width="784px" height="360px" alt="Planys Mobile Screens">
                                 <p>
                                 	<strong>What I did:</strong> HTML, CSS, Javascript, Responsive Design, PHP, SEO
                                 </p>
@@ -548,7 +513,7 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <h2>I Can Skills</h2>
-                                <img class="img-responsive img-centered" src="<?php echo get_stylesheet_directory_uri(); ?>/images/sds-screens.png" alt="I Can Skills Screens">
+                                <img class="img-responsive img-centered" src="<?php echo get_stylesheet_directory_uri(); ?>/images/sds-screens.png" width="657px" height="379px" alt="I Can Skills Screens">
                                 <p>
                                 	<strong>What I did:</strong> HTML, CSS, Javascript, Responsive Design
                                 </p>
@@ -582,7 +547,7 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <h2>Inchdairnie Distillery</h2>
-                                <img class="img-responsive img-centered" src="<?php echo get_stylesheet_directory_uri(); ?>/images/inch-screens.png" alt="Inchdairnie Distillery Screens">
+                                <img class="img-responsive img-centered" src="<?php echo get_stylesheet_directory_uri(); ?>/images/inch-screens.png" width="620px" height="372px" alt="Inchdairnie Distillery Screens">
                                 <p>
                                 	<strong>What I did:</strong> HTML, CSS, Javascript, Responsive Design, Wordpress Integration
                                 </p>
@@ -617,7 +582,7 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <h2>Hiryzr</h2>
-                                <img class="img-responsive img-centered" src="<?php echo get_stylesheet_directory_uri(); ?>/images/hi-screens.png" alt="Hiryzr Screens">
+                                <img class="img-responsive img-centered" src="<?php echo get_stylesheet_directory_uri(); ?>/images/hi-screens.png" width="646px" height="372px" alt="Hiryzr Screens">
                                 <p>
                                 	<strong>What I did:</strong> HTML, CSS, Javascript, Responsive Design
                                 </p>
@@ -628,7 +593,6 @@
                                     <li>Date: Dec 2015</li>
                                     <li>Client: Digital Connextions</li>
                                 </ul>
-                                <a href="http://www.inchdairniedistillery.com/" target="_blank" class="btn btn-primary">View Project</a>
                             </div>
                         </div>
                     </div>
@@ -653,7 +617,7 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <h2>Lydia Osteoporosis</h2>
-                                <img class="img-responsive img-centered" src="<?php echo get_stylesheet_directory_uri(); ?>/images/qmu-screens.png" alt="Lydia Osteoporosis Screens">
+                                <img class="img-responsive img-centered" src="<?php echo get_stylesheet_directory_uri(); ?>/images/qmu-screens.png" width="859px" height="422px" alt="Lydia Osteoporosis Screens">
                                 <p>
                                 	<strong>What I did:</strong> HTML, CSS, Javascript, Responsive Design
                                 </p>
@@ -688,7 +652,7 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <h2>Spot</h2>
-                                <img class="img-responsive img-centered" src="<?php echo get_stylesheet_directory_uri(); ?>/images/spot-screens.png" alt="Spot Screens">
+                                <img class="img-responsive img-centered" src="<?php echo get_stylesheet_directory_uri(); ?>/images/spot-screens.png" width="951px" height="432px" alt="Spot Screens">
                                 <p>
                                 	<strong>What I did:</strong> HTML, CSS, Javascript, Responsive Design
                                 </p>
@@ -723,7 +687,7 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <h2>Click Go Family</h2>
-                                <img class="img-responsive img-centered" src="<?php echo get_stylesheet_directory_uri(); ?>/images/cgf-screens.png" alt="Click Go Family Screens">
+                                <img class="img-responsive img-centered" src="<?php echo get_stylesheet_directory_uri(); ?>/images/cgf-screens.png" width="756px" height="388px" alt="Click Go Family Screens">
                                 <p>
 	                                <strong>What I did:</strong> HTML, CSS, Javascript, Responsive Design
 	                            </p>
@@ -734,7 +698,6 @@
                                     <li>Date: Aug 2016</li>
                                     <li>Client: Carr Gomm</li>
                                 </ul>
-                                <a href="https://www.mybusinesshound.com/" target="_blank" class="btn btn-primary">View Project</a>
                             </div>
                         </div>
                     </div>
